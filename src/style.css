@@ -1,0 +1,149 @@
+html {
+  /*background-color: rgb(183, 218, 218);
+  background-image: url("https://i.redd.it/xsd14fpxa7l41.jpg");*/
+  background-image: url("https://www.todofondos.net/wp-content/uploads/whatsapp-wallpaper-hd-1-576x1024.jpg");
+  background-size: 15% 25%;
+  background-color: black;
+}
+
+h1 {
+  width: 60%;
+  margin: 10px auto;
+  padding: 5px;
+  /*background-color: rgb(37, 150, 141);*/
+  background-color: #0d4e45;
+  text-align: center;
+  border-radius: 10px;
+  color: aliceblue;
+  border: 1px solid white;
+}
+
+body {
+  /*background-image: url("https://fondosmil.com/fondo/34253.jpg");
+    background-size: 100% 100%;*/
+  width: auto;
+  padding-block: 5px;
+  border-radius: 30px;
+  margin: 0;
+}
+
+.box1 {
+  color: aliceblue;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 65%;
+  margin: 20px auto 20px;
+  /*background-color: cadetblue;*/
+  background-color: #13453b;
+}
+
+.box2 {
+  color: aliceblue;
+  text-align: center;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin: 5px auto;
+  padding: 10px;
+  background-color: #1a4637;
+}
+
+input[type="text"] {
+  /*Es el cuadro de texto de la solicitud de desplazamiento*/
+  width: 250px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.OffsetNumber {
+  border-radius: 10px;
+  padding: 8px 30px;
+}
+
+/*input[type="button"] {
+  //Es el botón de la solicitud de desplazamiento
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  background-color: rgb(253, 198, 16);
+  color: rgb(3, 32, 65);
+}
+*/
+/*
+button{
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    background-color: rgb(253, 198, 16);
+    margin: 50px 50px 50px 50px;
+    width: 400px;
+    padding: 20px 20px;
+    margin: 40px 150px 40px;
+    color:  rgb(3, 32, 65);
+}
+
+*/
+
+.box3 {
+  color: aliceblue;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #14402e;
+}
+
+.decode {
+  /*esta es la clase de los botones cifrar o descifrar*/
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #7a740f;
+  margin: 50px 50px 50px 50px;
+  width: auto;
+  padding: auto;
+  margin: 10px auto;
+  color: aliceblue;
+}
+
+.TextCode {
+  /* estilo de textarea para introducir el mensaje*/
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-left: 10px;
+  margin: auto auto;
+  background: white;
+  color: black;
+}
+
+.box4 {
+  margin: 10 auto;
+  background-color: #113e23;
+  color: aliceblue;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 40%;
+  margin: 20px auto 20px;
+  padding: 10px;
+}
+
+.box5 {
+  margin: 10 auto;
+  color: aliceblue;
+  text-align: center;
+  border-radius: 10px;
+  width: 55%;
+  margin: 20px auto 20px;
+  color: white;
+  background-color: #0b3512;
+}
+footer {
+  background-color: #0b3512;
+  color: aliceblue;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Mensajeria secreta con tus Amigos o Pareja.</h1>
+    <script src="index.js" type="module"></script>
+
+    <div class="box1">
+      <p>
+        Se Creativo para comunicarte con tus amistades o pareja, crea una forma
+        secreta y divertida para expresarte.
+      </p>
+      <p>
+        ¿Cómo funciona? <br />Tendras que escoger un número que designará el
+        desplazamiento de las letras, se utilizará el abecedario simple, sin ñ
+        ni acentos (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T,
+        U, V, W, X, Y, Z). Así podras cifrar o descifrar tu mensaje.
+      </p>
+      <p>¡Diviertete hablando en código!</p>
+      <img
+        src="https://media.giphy.com/media/Q5pH4UmOiQciITstXU/giphy.gif"
+        alt="Mensaje"
+        width="130px"
+      />
+    </div>
+    <form id="CaesarCipher">
+      <div class="box2" id="root">
+        <label for="offset"
+          >Elige el numero de dezplazamiento que deseas utilizar.</label
+        ><br /><br />
+        <input
+          type="number"
+          class="OffsetNumber"
+          name="msj"
+          id="offset"
+          placeholder="# de desplazamiento..."
+        />
+        <!-- <input type="button" onclick="" name="Asignar" value="Asignar">    -->
+      </div>
+
+      <!--
+      <button onclick="Cipher()" >Cifrar un mensaje.</button>
+      <button onclick="Decipher()">Descrifrar un mensaje.</button>-->
+
+      <div class="box3">
+        <label for="codeDescipher"
+          >Introduce el mensaje que deseas cifrar o descifrar.</label
+        ><br />
+      </div>
+
+      <!--style hace que transforme el texto introducido a mayusculas, solo cambia su valor visual mas no su valor Ascii de minusculas, eso lo conserva-->
+      <div class="box4">
+        <textarea
+          style="text-transform: uppercase"
+          class="TextCode"
+          rows="4"
+          cols="30"
+          id="text"
+          placeholder="Introducir mensaje... "
+        ></textarea>
+        <textarea
+          class="TextCode"
+          id="translation"
+          rows="4"
+          cols="30"
+          placeholder="TRADUCCIÓN..."
+          readonly
+        ></textarea
+        ><br />
+      </div>
+
+      <div class="box5">
+        <button type="button" onclick="PushEncode()" class="decode">
+          Cifrar mensaje
+        </button>
+        <button type="button" onclick="PushDecode()" class="decode">
+          Descrifrar mensaje
+        </button>
+        <button type="reset" class="decode">Introducir nuevos datos</button>
+      </div>
+    </form>
+  </body>
+  <footer>Elaborado por Atenas Villalba</footer>
+</html>
+
+<!--http://localhost:3000/ -->
