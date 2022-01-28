@@ -63,28 +63,6 @@ input[type="text"] {
   padding: 8px 30px;
 }
 
-/*input[type="button"] {
-  //Es el botón de la solicitud de desplazamiento
-  padding: 5px 5px 5px 5px;
-  border-radius: 10px;
-  background-color: rgb(253, 198, 16);
-  color: rgb(3, 32, 65);
-}
-*/
-/*
-button{
-    padding: 5px 5px 5px 5px;
-    border-radius: 10px;
-    background-color: rgb(253, 198, 16);
-    margin: 50px 50px 50px 50px;
-    width: 400px;
-    padding: 20px 20px;
-    margin: 40px 150px 40px;
-    color:  rgb(3, 32, 65);
-}
-
-*/
-
 .box3 {
   color: aliceblue;
   padding: 20px;

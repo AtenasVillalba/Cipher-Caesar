@@ -71,13 +71,3 @@ export default cipher;
 //traduce a letras el código ASCII
 //validar valor de la letra + offset no sea mayor que ascii de Z
 
-//let
-//const abc= new Array("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
-/*let texto = text.lenght;
-
-  for (let i = 0; i < texto; i++) {
-    
-  }
-}
-
-export function decode(offset, text) {}*/

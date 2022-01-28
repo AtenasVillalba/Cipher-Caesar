@@ -23,21 +23,3 @@ window.PushDecode = function PushDecode() {
     document.getElementById("translation").value = test;
   }
 };
-
-/*
-
-window.PushEncodeEvent = function encodeEvent() {
-  let offset = document.getElementById("Offset").value;
-  let text = document.getElementById("text").value;
-
-  
-
-  //let result = encode(offset, text);
-};
-
-
-*/
-
-/*if(displacement === null || displacement === 0){
-    throw new TypeError()
-} */
